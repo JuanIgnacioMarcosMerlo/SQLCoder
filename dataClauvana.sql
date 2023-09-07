@@ -9,7 +9,7 @@ value 	('2023-09-06', 'Angeles',30),
         ('2023-09-06', 'Delfina',30);
 
 
-clientesINSERT INTO precio (Fecha, Id_Prenda, Precio_Mayorista, Precio_Minorista)
+INSERT INTO precio (Fecha, Id_Prenda, Precio_Mayorista, Precio_Minorista)
 value
 	('2023-09-06','Angeles',1500,1800),
     ('2023-09-06','Angie',6000,7200),
