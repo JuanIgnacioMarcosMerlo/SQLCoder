@@ -112,3 +112,9 @@ create table Deudores (
     foreign key (Fecha_Facturacion) references Fechas(Fecha),
     foreign key (Id_Cliente) references Clientes(Id_Cliente)
 );
+
+CREATE TABLE Tipos_Prenda (
+    Id_Prenda VARCHAR(20) NOT NULL,
+    Tipo_Prenda VARCHAR(50) NOT NULL,
+    FOREIGN KEY (Id_Prenda) REFERENCES Prenda(Id_Prenda)
+);
